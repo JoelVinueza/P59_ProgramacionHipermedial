@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+}
+
+.container {
+    display: grid;
+    /* Filas / columnas */
+    grid-template: repeat(5, 1fr) / auto auto auto;
+    grid-gap: 10px 8px;
+    background: black;
+}
+
+.personaje {
+    border-radius: 10px;
+    background: black;
+    color: white;
+    padding: 10px;
+    border: 1px solid orangered;
+}
+
+.Nombre {
+    border-radius: 10px;
+    background: gray;
+    color: white;
+    padding: 10px;
+    border: 1px solid blueviolet;
+}
+
+.Especie {
+    border-radius: 10px;
+    background: gray;
+    color: white;
+    padding: 10px;
+    border: 1px solid rebeccapurple;
+}
+
+.Img{
+    border-radius: 10px;
+    background: gray;
+    color: white;
+    padding: 10px;
+    border: 1px solid ghostwhite;
+}
